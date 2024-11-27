@@ -263,7 +263,7 @@ class WebKitWebViewController extends PlatformWebViewController {
         return '';
       },
     );
-
+    _webView.setAllowsLinkPreview(false);
     _webView.setUIDelegate(_uiDelegate);
   }
 
